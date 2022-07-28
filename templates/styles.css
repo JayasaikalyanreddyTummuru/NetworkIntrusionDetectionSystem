@@ -1,0 +1,64 @@
+body {
+    background-color: #000;
+    margin-top: 50px;
+    font-family: 'Helvetica';
+}
+ 
+h1{
+    color: white;
+    font-size: 2rem;
+}
+p{
+    color : white;
+    font-size : larger;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgb(100 100 100 / 20%), 0 1px 1px rgb(255 255 255 / 20%);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+
+.item:hover {
+    box-shadow: 0 0 1em #aaa;
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
+
+.toggles {
+    color: black;
+}
+
+.name {
+    padding-top: 3px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px solid #333;
+}
+
+.login{
+    align-items: center;
+    width: 30%;
+    margin: 6% auto 0;
+}
